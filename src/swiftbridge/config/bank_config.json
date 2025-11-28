@@ -1,0 +1,48 @@
+{
+  "deutsche_bank": {
+    "adapterClass": "DeutscheBankAdapter",
+    "apiEndpoint": "https://api.db.com/swift-gpi/v1/payments",
+    "authType": "API_KEY",
+    "credentials": {
+      "apiKey": "${DB_API_KEY}",
+      "secret": "${DB_API_SECRET}"
+    },
+    "messageFormat": "JSON",
+    "specificFields": {
+      "senderToReceiverInfo": "URGENT BUSINESS"
+    }
+  },
+  "ubs": {
+    "adapterClass": "UBSAdapter",
+    "apiEndpoint": "https://gateway.ubs.com/ebanking/swift",
+    "authType": "OAUTH2",
+    "credentials": {
+      "clientId": "${UBS_CLIENT_ID}",
+      "clientSecret": "${UBS_CLIENT_SECRET}"
+    },
+    "messageFormat": "XML",
+    "specificFields": {}
+  },
+  "hsbc": {
+    "adapterClass": "HSBCAdapter",
+    "apiEndpoint": "https://connect.hsbc.com/swift",
+    "authType": "API_KEY",
+    "credentials": {
+      "apiKey": "${HSBC_API_KEY}",
+      "secret": "${HSBC_API_SECRET}"
+    },
+    "messageFormat": "JSON",
+    "specificFields": {}
+  },
+  "barclays": {
+    "adapterClass": "BarclaysAdapter",
+    "apiEndpoint": "https://api.barclays.com/payments/swift",
+    "authType": "API_KEY",
+    "credentials": {
+      "apiKey": "${BARCLAYS_API_KEY}",
+      "secret": "${BARCLAYS_API_SECRET}"
+    },
+    "messageFormat": "JSON",
+    "specificFields": {}
+  }
+}
