@@ -269,11 +269,14 @@ Jika kamu menyukai proyek ini, jangan lupa beri ⭐ di repository untuk mendukun
 
 <div align="center">
 
-Kalau project ini bermanfaat, kasih ⭐ ya dan share ke temen-temenmu!<br>
-Follow <a href="https://twitter.com/kongali1720" target="_blank">@kongali1720</a> buat update seru lainnya 🔥  
+⭐ Kalau project ini bermanfaat, kasih ⭐ ya dan share ke teman-temanmu!<br>
+Follow <a href="https://x.com/KongAli50422468" target="_blank">@kongali1720</a> untuk update seru lainnya 🔥  
 
-<a href="https://twitter.com/kongali1720" target="_blank">
-  <img src="https://img.shields.io/twitter/follow/kongali1720?style=social" alt="Twitter Follow Badge">
+<br>
+
+<a href="https://x.com/KongAli50422468" target="_blank">
+  <img src="https://img.shields.io/twitter/follow/kongali1720?style=social" alt="Follow @kongali1720">
 </a>
 
 </div>
+
