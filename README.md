@@ -47,12 +47,18 @@ This project showcases the lab's capability in building enterprise-grade financi
 -   **⚙️ Automated & Efficient:** Reduces manual intervention and errors by automatically validating, building, and sending standards-compliant SWIFT messages (MT103).
 -   **📈 Scalable Architecture:** Easily add new banking partners in the future without disrupting existing code, thanks to a modular design using the **Adapter Pattern**.
 
-## 🚀 Live Demo
+## 🔗 Official Links
 
-See the platform in action! Our interactive website demonstrates the user interface, key features, and the professional dashboard designed for financial institutions.
+🌍 **Main Website**  
+👉 https://swift-bridge.younext.cloud/
 
-**[➡️ View Live Demo Website](https://kongali1720.github.io/swiftbridge-financial-system/)**
+🚀 **Live Demo (GitHub Pages)**  
+👉 https://kongali1720.github.io/swiftbridge-financial-system/
 
+📁 **Repository Preview**  
+👉 https://github.com/kongali1720/swiftbridge-financial-system
+
+---
 ---
 
 ## 🏗️ Technical Architecture
