@@ -53,7 +53,7 @@ This project showcases the lab's capability in building enterprise-grade financi
 👉 https://swift-bridge.younext.cloud/
 
 🚀 **Live Demo (GitHub Pages)**  
-👉 https://kongali1720.github.io/swiftbridge-financial-system/
+👉 https://swift-bridge.younext.cloud/
 
 📁 **Repository Preview**  
 👉 https://github.com/kongali1720/swiftbridge-financial-system
