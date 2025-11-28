@@ -1,4 +1,4 @@
-<h1 align="center">💳 SWIFT-BRIDGE</h1>
+<h1 align="center">💳 SWIFT-BRIDGE by Kongali1720</h1>
 <p align="center">
 <b>A Modular SWIFT (MT103 / ISO 20022) Transaction Simulation & Integration System</b>
 </p>
