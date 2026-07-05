@@ -1,0 +1,14 @@
+{
+  "deutsche_bank": {
+    "endpoint": "https://api.deutschebank.com/swift",
+    "format": "MT103"
+  },
+  "ubs": {
+    "endpoint": "https://api.ubs.com/swift",
+    "format": "MT103"
+  },
+  "hsbc": {
+    "endpoint": "https://api.hsbc.com/swift",
+    "format": "MT103"
+  }
+}
