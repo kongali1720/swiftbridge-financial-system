@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://github.com/kongali1720/KongWallet-Payment-Gateway-API/blob/main/kop_surat.jpg" width="100%">
+</p>
+
 <div align="center">
 
 # 💳 SWIFT-BRIDGE by Kongali1720
@@ -26,49 +30,26 @@
 
 ---
 
-<div align="center">
-
-![GitHub repo size](https://img.shields.io/github/repo-size/kongali1720/swiftbridge-financial-system?style=for-the-badge)
-![Language](https://img.shields.io/github/languages/top/kongali1720/swiftbridge-financial-system?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/kongali1720/swiftbridge-financial-system?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/kongali1720/swiftbridge-financial-system?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/kongali1720/swiftbridge-financial-system?style=for-the-badge)
-![License](https://img.shields.io/github/license/kongali1720/swiftbridge-financial-system?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-ACTIVE-success?style=for-the-badge)
-
-</div>
-
----
-
 ## 🚀 Project Description
 
 **SwiftBridge** is a flagship project from the **KONGALI – Web3 • Blockchain • Cyber Lab**.
 
-It is a robust middleware platform designed to:
-- unify SWIFT transaction flows
-- standardize ISO 20022 messaging
-- simplify multi-bank integration
-- provide secure financial API orchestration
+It is a modular financial middleware system designed to:
+- Standardize SWIFT & ISO 20022 messaging (MT103, pacs.008, etc.)
+- Simplify multi-bank integration via adapter architecture
+- Enable secure transaction orchestration
+- Provide scalable financial API infrastructure
 
 ---
 
 ## 🌟 Key Features
 
-- 🔗 Unified Multi-Bank API
-- 📊 Real-Time Transaction Monitoring
-- 🔐 End-to-End Encrypted Messaging
-- ⚙️ Automated SWIFT Message Builder (MT103)
-- 📈 Modular Adapter Architecture (Bank Plugins)
-
----
-
-## 🔗 Official Links
-
-🌍 Main Website  
-👉 https://swift-bridge.younext.cloud/
-
-📁 Repository  
-👉 https://github.com/kongali1720/swiftbridge-financial-system
+- 🔗 Multi-Bank Integration Layer
+- ⚙️ SWIFT MT103 Message Builder Engine
+- 📡 Real-Time Transaction Orchestration
+- 🔐 Secure Authentication Middleware
+- 🧩 Plug-and-Play Bank Adapter System
+- 📊 Extensible Financial Data Pipeline
 
 ---
 
@@ -76,15 +57,16 @@ It is a robust middleware platform designed to:
 
 ```mermaid
 graph TD
-A[Client] --> B[API Layer]
-B --> C[Core Logic]
-C --> D[SwiftBridge Engine]
+Client --> API_Layer
+API_Layer --> Core_Service
+Core_Service --> SwiftBridge_Engine
 
-D --> E[Deutsche Bank]
-D --> F[UBS]
-D --> G[HSBC]
-D --> H[Barclays]
+SwiftBridge_Engine --> Deutsche_Bank
+SwiftBridge_Engine --> UBS
+SwiftBridge_Engine --> HSBC
+SwiftBridge_Engine --> Barclays
 ```
+
 
 ## 📂 Project Folder Structure
 
@@ -170,6 +152,10 @@ financial-transaction-system/
 └── README.md
 ```
 
+---
+
+<div align="center">
+
 ## 🛠️ Tech Stack
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=flat-square&logo=javascript)
@@ -177,27 +163,31 @@ financial-transaction-system/
 ![CSS](https://img.shields.io/badge/CSS3-blue?style=flat-square&logo=css3)
 ![NodeJS](https://img.shields.io/badge/NodeJS-18.x-brightgreen?style=flat-square&logo=node.js)
 
-*Backend can be extended with Python or other languages as needed.*
+</div>
+
+<p align="center">
+<em>Backend can be extended with Python or other languages as needed.</em>
+</p>
 
 ---
 
 ## ⚡ How To Use
 
-To get a local copy of the demo website up and running, follow these simple steps.
+To get a local copy of the project running locally, follow these steps:
 
-### Prerequisites
+### 📌 Prerequisites
 - A modern web browser
+- Node.js (v18+ recommended)
 
-## Installation
+---
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/kongali1720/swiftbridge-financial-system.git
-    cd swiftbridge-financial-system
-    ```
+### 📥 Installation
 
-2.  **Run the application:**
-    Simply open the `index.html` file in your preferred web browser.
+```bash
+git clone https://github.com/kongali1720/swiftbridge-financial-system.git
+cd swiftbridge-financial-system
+npm install
+```
 
 ---
 
@@ -218,11 +208,11 @@ Jika kamu menyukai proyek ini, jangan lupa beri ⭐ di repository untuk mendukun
 
 ---
 
+<div align="center">
+    
 ## ☕ Support the Project
 
 If this project has helped your research, learning, or security operations, consider supporting its continued development.
-
-<div align="center">
 
 <a href="https://www.paypal.com/paypalme/bungtempong99">
 <img src="https://img.shields.io/badge/☕-Support_Development-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000">
