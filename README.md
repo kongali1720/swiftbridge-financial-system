@@ -1,25 +1,32 @@
-<h1 align="center">💳 SWIFT-BRIDGE by Kongali1720</h1>
-<p align="center">
-<b>A Modular SWIFT (MT103 / ISO 20022) Transaction Simulation & Integration System</b>
-</p>
+<div align="center">
 
-<p align="center">
+# 💳 SWIFT-BRIDGE by Kongali1720
+
+<b>A Modular SWIFT (MT103 / ISO 20022) Transaction Simulation & Integration System</b>
+
+---
+
 <img src="https://img.shields.io/badge/Status-ACTIVE-success?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Version-1.0-orange?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/SWIFT-MT103-green?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/ISO-20022-yellow?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Security-High-red?style=for-the-badge"/>
-</p>
-
-<p align="center">
-🌐 <b>Live System:</b>  
-👉 <a href="https://swift-bridge.younext.cloud/">https://swift-bridge.younext.cloud/</a>
-</p>
 
 ---
 
-> A unified middleware platform for seamless global transactions, connecting your systems to major banks like **Deutsche Bank, UBS, HSBC, and Barclays** through a single, secure API.  
+🌐 **Live System**  
+👉 <a href="https://swift-bridge.younext.cloud/">https://swift-bridge.younext.cloud/</a>
+
+</div>
+
+---
+
+> A unified middleware platform for seamless global transactions, connecting systems to major banks like **Deutsche Bank, UBS, HSBC, and Barclays** through a single secure API.  
 > *“Building the digital future of finance, one transaction at a time.”*
+
+---
+
+<div align="center">
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/kongali1720/swiftbridge-financial-system?style=for-the-badge)
 ![Language](https://img.shields.io/github/languages/top/kongali1720/swiftbridge-financial-system?style=for-the-badge)
@@ -29,62 +36,55 @@
 ![License](https://img.shields.io/github/license/kongali1720/swiftbridge-financial-system?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-ACTIVE-success?style=for-the-badge)
 
+</div>
+
 ---
 
 ## 🚀 Project Description
 
-**SwiftBridge** is a flagship project from the **KONGALI – Web3 • Blockchain • Cyber Lab**. It is a robust middleware platform designed to simplify and automate SWIFT transactions, providing a single, unified API to connect with major global banks.
+**SwiftBridge** is a flagship project from the **KONGALI – Web3 • Blockchain • Cyber Lab**.
 
-This project showcases the lab's capability in building enterprise-grade financial systems that are secure, scalable, and efficient, focusing on solving real-world problems in the financial sector.
+It is a robust middleware platform designed to:
+- unify SWIFT transaction flows
+- standardize ISO 20022 messaging
+- simplify multi-bank integration
+- provide secure financial API orchestration
 
 ---
 
 ## 🌟 Key Features
 
--   **🔗 Unified Multi-Bank Connectivity:** Access multiple global banks through a single, consistent API endpoint.
--   **📊 Real-Time Transparency:** Monitor every transaction with an interactive dashboard for full visibility from submission to settlement.
--   **🔐 Enterprise-Grade Security:** Built with security in mind, featuring end-to-end encryption and a complete audit trail.
--   **⚙️ Automated & Efficient:** Reduces manual intervention and errors by automatically validating, building, and sending standards-compliant SWIFT messages (MT103).
--   **📈 Scalable Architecture:** Easily add new banking partners in the future without disrupting existing code, thanks to a modular design using the **Adapter Pattern**.
+- 🔗 Unified Multi-Bank API
+- 📊 Real-Time Transaction Monitoring
+- 🔐 End-to-End Encrypted Messaging
+- ⚙️ Automated SWIFT Message Builder (MT103)
+- 📈 Modular Adapter Architecture (Bank Plugins)
+
+---
 
 ## 🔗 Official Links
 
-🌍 **Main Website**  
+🌍 Main Website  
 👉 https://swift-bridge.younext.cloud/
 
-🚀 **Live Demo (GitHub Pages)**  
-👉 https://swift-bridge.younext.cloud/
-
-📁 **Repository Preview**  
+📁 Repository  
 👉 https://github.com/kongali1720/swiftbridge-financial-system
 
 ---
----
 
-## 🏗️ Technical Architecture
-
-The project is built with a focus on scalability, maintainability, and security, following best practices in software design.
-
-### High-Level Design
-
-The system is composed of three main layers: an API Layer, a Core Logic Layer, and the SwiftBridge Module, which handles all SWIFT-related communication using specific adapters for each bank.
+## 🏗️ Architecture Overview
 
 ```mermaid
 graph TD
-    A[Client Application] -->|1. Send Payment Request| B(API Layer);
-    B -->|2. Process Request| C(Core Logic Layer);
-    C -->|3. Orchestrate SWIFT Message| D{SwiftBridge Module};
-    D -->|4. Select Adapter| E[Deutsche Bank Adapter];
-    D -->|4. Select Adapter| F[UBS Adapter];
-    D -->|4. Select Adapter| G[HSBC Adapter];
-    D -->|4. Select Adapter| H[Barclays Adapter];
-    E -->|5. Send MT103| I[Deutsche Bank];
-    F -->|5. Send MT103| J[UBS];
-    G -->|5. Send MT103| K[HSBC];
-    H -->|5. Send MT103| L[Barclays];
-```
+A[Client] --> B[API Layer]
+B --> C[Core Logic]
+C --> D[SwiftBridge Engine]
 
----
+D --> E[Deutsche Bank]
+D --> F[UBS]
+D --> G[HSBC]
+D --> H[Barclays]
+```
 
 ## 📂 Project Folder Structure
 
@@ -188,7 +188,7 @@ To get a local copy of the demo website up and running, follow these simple step
 ### Prerequisites
 - A modern web browser
 
-### Installation
+## Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -202,15 +202,13 @@ To get a local copy of the demo website up and running, follow these simple step
 ---
 
 
-### **👤 Kong Ali — (@kongali1720)**  
+## **👤 Kong Ali — (@kongali1720)**  
 Founder & Developer of **KongaliCoin**  
 > _"Building the future of digital finance with clarity, transparency, and innovation."_  
 
 Jika kamu menyukai proyek ini, jangan lupa beri ⭐ di repository untuk mendukung perkembangan selanjutnya!
 
 ---
-
-<div align="center">
 
 ## ✅ Gaspol Coding Squad Indonesia! 🚀💻
 > Belajar sambil praktek langsung.<br>
@@ -220,12 +218,15 @@ Jika kamu menyukai proyek ini, jangan lupa beri ⭐ di repository untuk mendukun
 
 ---
 
+## ☕ Support the Project
+
+If this project has helped your research, learning, or security operations, consider supporting its continued development.
+
 <div align="center">
 
-## ☕ Traktir Kopi & Nasi Padang  
-
-<strong>Dukung terus biar semangat bikin karya edukatif lainnya...</strong><br>
-💡 ☕ <a href="https://www.paypal.com/paypalme/bungtempong99" target="_blank">Buy Me a Coffee via PayPal</a>
+<a href="https://www.paypal.com/paypalme/bungtempong99">
+<img src="https://img.shields.io/badge/☕-Support_Development-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000">
+</a>
 
 </div>
 
@@ -247,8 +248,6 @@ Jika kamu menyukai proyek ini, jangan lupa beri ⭐ di repository untuk mendukun
   <img src="https://img.shields.io/badge/SUPPORT--NOW-%23FF6600?style=for-the-badge&logo=heart&logoColor=white" alt="Support Now">
 </a>
 
-</div>
-
 ---
 
 <div align="center">
@@ -256,9 +255,9 @@ Jika kamu menyukai proyek ini, jangan lupa beri ⭐ di repository untuk mendukun
 ## 💳 Dukungan Pembayaran DONASI
 
 <p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Visa_Logo.png/120px-Visa_Logo.png" alt="Visa" width="80">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Visa_Inc._logo_%282021%E2%80%93present%29.svg" alt="Visa" width="80">
   &nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/120px-Mastercard-logo.svg.png" alt="Mastercard" width="80">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" alt="Mastercard" width="80">
   &nbsp;&nbsp;
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PayPal_logo.svg/120px-PayPal_logo.svg.png" alt="PayPal" width="80">
 </p>
